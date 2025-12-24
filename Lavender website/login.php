@@ -46,18 +46,7 @@ if (isset($_POST["login"])) {
     }
 }
 
-// === Google Login ===
-require_once 'vendor/autoload.php';
 
-$client = new Google\Client();
-$client->setClientId("676894993162-ks57mgarg5adoukcjdfk7k5gk35mv3ek.apps.googleusercontent.com");
-$client->setClientSecret("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");
-$client->setRedirectUri("http://localhost/mywebsite/google-callback.php");
-$client->addScope("email");
-$client->addScope("profile");
-
-$google_login_url = $client->createAuthUrl();
-?>
 
 <link rel="stylesheet" href="login.css">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
