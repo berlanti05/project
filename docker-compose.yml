@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - "./lavender website:/var/www/html"
+      - ./Lavender_website:/var/www/html
     ports:
       - "8081:80"
     depends_on:
