@@ -14,7 +14,7 @@
 <section class="banner">
  <!--   <nav class="main-nav">
         <a href="index.php">HOME </a>
-        <a href="http://localhost/mywebsite/product.php?type=all&flavor=all">Products</a>
+        <a href="product.php?type=all&flavor=all">Products</a>
         <a href="about.php">About Us</a>
         <a href="contact.php">Contact</a>
 
