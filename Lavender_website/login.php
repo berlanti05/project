@@ -46,8 +46,7 @@ if (isset($_POST["login"])) {
     }
 }
 
-
-
+?>
 <link rel="stylesheet" href="login.css">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -59,10 +58,7 @@ if (isset($_POST["login"])) {
     <label class="error"><?php echo $error; ?></label>
     <button type="submit" name="login">GO</button>
 
-    <a href="<?= $google_login_url ?>" class="google-btn">
-        <img src="google.png" alt="google">
-        Login with Google
-    </a>
+
 </form>
 
 <p class="signup-text">
