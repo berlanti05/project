@@ -5,8 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    volumes:
-      - ./Lavender_website:/var/www/html
+      
     ports:
       - "8081:80"
     depends_on:
