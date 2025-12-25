@@ -29,7 +29,7 @@
     </nav>
 -->
     <div class="banner-content">
-        <h1>LAVENDER SWEET</h1>
+        <h1>berlanti</h1>
         <p>"Indulge in the elegance of Lavender Sweet <br> where chocolate becomes an art of luxury."</p>
     </div>
 </section>
