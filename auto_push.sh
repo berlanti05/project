@@ -14,6 +14,4 @@ if [ $? -eq 0 ]
     then
         git push origin $Branch
         echo "Code pushed successfully"
-    else
-        echo "Nothing to commit"
 fi
