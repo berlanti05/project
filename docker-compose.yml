@@ -15,7 +15,7 @@ services:
     image: mysql
     restart: always
     volumes:
-       - mysql_data:/var/lib/mysql
+       - ~/finalproject/mysql_data:/var/lib/mysql
        - ./Lavender_website/lavender.sql:/docker-entrypoint-initdb.d/lavender.sql
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD} # Use environment variable
