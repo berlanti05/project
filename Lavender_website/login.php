@@ -24,7 +24,7 @@ if (isset($_POST["login"])) {
             $_SESSION["location"] = $row['location'];
 
             if($row['type'] === "admin"){
-                header("Location: Control panel.php");
+                header("Location: Control Panel.php");
                 exit();
             } else {
                 // location
