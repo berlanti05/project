@@ -6,5 +6,4 @@ RUN echo "DirectoryIndex index.php index.html" > /etc/apache2/mods-enabled/dir.c
 COPY ./Lavender_website/ /var/www/html/
 WORKDIR /var/www/html
 EXPOSE 80
-# original command apachectl -D FOREGROUND will not wotk use full path of /usr/sbin/apache2ctl
 CMD ["/usr/sbin/apachectl", "-D", "FOREGROUND"]
