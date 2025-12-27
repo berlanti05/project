@@ -1,11 +1,4 @@
--- phpMyAdmin SQL Dump
--- version 5.2.1
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Generation Time: 05 ديسمبر 2025 الساعة 22:27
--- إصدار الخادم: 10.4.32-MariaDB
--- PHP Version: 8.2.12
+
 CREATE DATABASE IF NOT EXISTS lavender;
 USE lavender;
 
