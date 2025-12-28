@@ -3,7 +3,7 @@
 if ! [ -d .git ]
 then
     echo "Not a git repository"
-    exit 0
+    exit 1
 fi
 
 Branch=$(git branch | grep '*' | awk '{print $2}')
