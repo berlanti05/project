@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>LAVENDER_SWEET💜</title>
+    <title>LAVENDER SWEET💜</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -29,7 +29,7 @@
     </nav>
 -->
     <div class="banner-content">
-        <h1>LAVENDER SWEET</h1>
+        <h1>hello from home</h1>
         <p>"Indulge in the elegance of Lavender Sweet <br> where chocolate becomes an art of luxury."</p>
     </div>
 </section>
